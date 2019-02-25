@@ -1,0 +1,137 @@
+html {
+    background-color : hsl(0, 0%, 24%); 
+}
+body {
+    background-color :black;
+    width : 980px;
+    margin: 0 auto;
+    font-family : "Gill Sans", sans-serif;
+    font-size : 1.2em;
+    color :	#D3D3D3; 
+    padding : 10px;
+    padding-top : 0;
+    border-radius: 1em; 
+}
+img.top-image {
+    height : 250px;
+    width: 955px;
+    margin-top : 10px;
+    margin-right : 10px;
+    padding : 10px;
+    padding-top : 10px;
+    border:3px solid #A8A8A8;
+    box-shadow: 0 10px 20px rgba(241, 237, 237, 0.19), 0 6px 6px rgba(85, 81, 81, 0.23);
+}
+
+img.output-image {
+    height : 60px;
+    width: 100px;
+    margin-top : 5px;
+    margin-right : 0px;
+    padding : 0px;
+    padding-top : 0px;
+    border:1px solid #A8A8A8;
+    border-radius: 15%
+}
+
+#p01 {
+    color:greenyellow;
+}
+
+h1 {
+    font-size : 2em; 
+    color : FF2C00;
+    text-align:center;
+    background-color: rgba(59, 59, 59, 0.1);
+    padding: 5px;
+}
+h2 {
+    font-size : 1.4em;
+    color : #FF8500;
+}
+h3 {
+    font-size : 1.2em;
+    color : #00B945;
+}
+
+aside {
+    float : left;
+    width : 320px;
+    margin-right: 20px;
+    margin-bottom : 15px;
+    background-color :hsl(0, 1%, 17%) ;
+    padding : 5px;
+    border : 2px solid #A8A8A8;
+    font-style: italic;
+    box-shadow: 0 10px 20px rgba(241, 237, 237, 0.19), 0 6px 6px rgba(85, 81, 81, 0.23);
+}
+aside div {
+    padding : 5px;
+    background-color : black;
+    margin-bottom : 15px;
+}
+ 
+aside h1 {
+    font-size : 1.2em;
+    margin-top : 0px;
+}
+aside h2 {
+    font-size : 1em;
+}
+aside ul {
+    line-height : 1.8em;
+    list-style-type : square;
+    color : #FF8500;
+}
+a {
+    color : #3AA6D0; 
+    text-decoration : none;
+}
+
+nav a {
+    font-weight : bold; 
+}
+nav ul {
+    list-style-type : none;
+    margin : 0px;
+    margin-bottom: 10px;
+    padding : 0;
+    text-align:center;
+}
+
+nav li {
+    display : inline; 
+    margin-right : 30px;
+    margin-left : 30px;
+}
+
+a:visited {
+    color: red;
+}
+a:hover {
+    color:yellow;
+}
+
+footer {
+    text-align : center;
+    font-size : 1em;
+    font-style : italic;
+    border : 2px solid #A8A8A8;
+    background-color : black;
+    padding: 0%;
+}
+.quote p {
+    font-style : italic;
+}
+.button1 {
+    background-color: black;
+    color: #A8A8A8;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.button1:hover {
+    background-color: red;
+    box-shadow: 0 6px 10px 0 hsl(0, 80%, 50%);
+}
